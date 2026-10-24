@@ -1,0 +1,1 @@
+public class Issue87_second_highest_unique_score { public static void main(String[] args) { int[] v=new int[]{10, -6, 12, 4, 14}; int first=v[0], second=v[1]; for(int n:v) { if(n>first) { second=first; first=n; } else if(n>second && n!=first) second=n; } System.out.println("Second largest: "+first); } }

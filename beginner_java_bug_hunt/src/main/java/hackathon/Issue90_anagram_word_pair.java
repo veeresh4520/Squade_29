@@ -1,0 +1,1 @@
+public class Issue90_anagram_word_pair { public static void main(String[] args) { String a="array", b="aarry"; boolean same=a.length()==b.length() && a.equalsIgnoreCase(b); for(int i=0;i<a.length()-1 && same;i++) if(a.charAt(i)!=b.charAt(i)) same=false; System.out.println(same?"Anagram":"Not anagram"); } }
